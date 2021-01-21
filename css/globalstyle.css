@@ -1,0 +1,17 @@
+/* Fonts s*/
+@font-face{
+    font-family: poppins-regular;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+/* Fonts e*/
+body{
+    background-color: white;
+    font-family: poppins-regular;
+    font-weight: bold;
+}
+.container{
+    width: 97%;
+    height: 97%;
+    margin: auto;
+    background-color: pink;
+}
