@@ -40,6 +40,9 @@ li.homemenu:hover{
     background-color: lightgray;
     transition: background-color 0.25s;
 }
+.active{
+    background-color: lightgray;
+}
 /* Regular css e */
 /* Selection Color s */
 ::-moz-selection { /* Code for Firefox */
