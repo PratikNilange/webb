@@ -4,27 +4,27 @@
 
 /* Fonts s*/
 @font-face{
-    font-family: "poppins-regular";
+    font-family: "stdfont-regular";
     src: url(../fonts/Poppins/Poppins-Regular.ttf);
 }
 @font-face{
-    font-family: "poppins-bold";
+    font-family: "stdfont-bold";
     src: url(../fonts/Poppins/Poppins-Bold.ttf);
 }
 .fontregular{
-    font-family: "poppins-regular" !important;
+    font-family: "stdfont-regular" !important;
 }
 .fontbold{
-    font-family: "poppins-bold" !important;
+    font-family: "stdfont-bold" !important;
 }
 /* Fonts e*/
 /* Regular css s */
 body{
     background-color: white;
-    font-family: "poppins-regular" !important;
+    font-family: "stdfont-regular" !important;
 }
 h1{
-    font-family: "poppins-bold" !important;
+    font-family: "stdfont-bold" !important;
 }
 a.colored{
     text-decoration: none !important;
@@ -35,6 +35,10 @@ a.colored{
 a.colored:hover{
     color: black;
     background-color: #f5df4d94;  /*Change according to P-COTY: opacity~60*/
+}
+li.homemenu:hover{
+    background-color: lightgray;
+    transition: background-color 0.25s;
 }
 /* Regular css e */
 /* Selection Color s */
