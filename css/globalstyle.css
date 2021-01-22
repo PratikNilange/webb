@@ -1,17 +1,49 @@
+:root{
+    --coty: #F5DF4D; /*Pantone Color of the Year */
+}
+
 /* Fonts s*/
 @font-face{
-    font-family: poppins-regular;
+    font-family: "poppins-regular";
     src: url(../fonts/Poppins/Poppins-Regular.ttf);
 }
+@font-face{
+    font-family: "poppins-bold";
+    src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+.fontregular{
+    font-family: "poppins-regular" !important;
+}
+.fontbold{
+    font-family: "poppins-bold" !important;
+}
 /* Fonts e*/
+/* Regular css s */
 body{
     background-color: white;
-    font-family: poppins-regular;
-    font-weight: bold;
+    font-family: "poppins-regular" !important;
 }
-.container{
-    width: 97%;
-    height: 97%;
-    margin: auto;
-    background-color: pink;
+h1{
+    font-family: "poppins-bold" !important;
 }
+a.colored{
+    text-decoration: none !important;
+    color: black;
+    background-color: var(--coty);
+    white-space: pre;
+}
+a.colored:hover{
+    color: black;
+    background-color: #f5df4d94;  /*Change according to P-COTY: opacity~60*/
+}
+/* Regular css e */
+/* Selection Color s */
+::-moz-selection { /* Code for Firefox */
+    color: black;
+    background: var(--coty);
+}
+::selection {
+    color: black;
+    background: var(--coty);
+}
+/* Selection Color e */
