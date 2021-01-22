@@ -3,5 +3,5 @@
 - **Poppins**: Type/Font: Designed by Indian Type Foundry, Jonny Pinhorn: Licensed under the Open Font License.
 - **Lightbox2**: Type/CSS-JS: Copyright (c) 2015 Lokesh Dhakar: The MIT License (MIT)
 - **jQuery**: Type/JS: Copyright OpenJS Foundation and other contributors: The MIT License (MIT)
-- **Pure**: Type/CSS: Copyright 2013 Yahoo! Inc.: Software License Agreement (BSD License)
 - **Bootstrap**: Type/CSS-JS: Copyright (c) 2011-2021 Twitter, Inc. Copyright (c) 2011-2021 The Bootstrap Authors: The MIT License (MIT)
+- **popperjs**: Type/JS: Copyright (c) 2019 Federico Zivolo: The MIT License (MIT)
