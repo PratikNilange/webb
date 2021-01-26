@@ -1,5 +1,8 @@
 :root{
-    --coty: #F5DF4D; /*Pantone Color of the Year */
+    /* --coty: #F5DF4D; */
+    /*Pantone Color of the Year */
+    --coty: rgb(155, 222, 245);
+    /* --coty: #ffbeff; */
 }
 
 /* Fonts s*/
@@ -11,16 +14,31 @@
     font-family: "stdfont-bold";
     src: url(../fonts/Poppins/Poppins-Bold.ttf);
 }
+@font-face{
+    font-family: "blogfont-regular";
+    src: url(../fonts/Source_Serif_Pro/SourceSerifPro-Regular.ttf);
+}
+@font-face{
+    font-family: "blogfont-bold";
+    src: url(../fonts/Source_Serif_Pro/SourceSerifPro-Bold.ttf);
+}
 .fontregular{
     font-family: "stdfont-regular" !important;
 }
 .fontbold{
     font-family: "stdfont-bold" !important;
 }
+.blogfontregular{
+    font-family: "blogfont-regular" !important;
+}
+.blogfontbold{
+    font-family: "blogfont-bold" !important;
+}
 /* Fonts e*/
 /* Regular css s */
 body{
-    background-color: white;
+    text-shadow: 0 0.05rem 0.1rem rgba(46, 46, 46, 0.2);
+    /* background-color: white; */
     font-family: "stdfont-regular" !important;
 }
 h1{
@@ -31,6 +49,16 @@ h1{
     color: black;
     background-color: var(--coty);
     white-space: pre;
+    border-radius: 5px;
+}
+.colored-grey{
+    background-color: white;
+    white-space: pre;
+    border-radius: 5px;
+}
+.colored-grey:hover{
+    background-color: lightgray;
+    transition: background-color 0.25s;
 }
 a.colored:hover{
     color: black;
@@ -43,7 +71,48 @@ li.homemenu:hover{
 .active{
     background-color: lightgray;
 }
-
+a.coloredv2{
+    background-color: transparent;
+    color: black !important;
+    text-decoration: none !important;
+    transition: background .15s cubic-bezier(.33,.66,.66,1);
+    /* border-bottom: 3px solid #b4e7f8; */
+    border-bottom: 0px solid var(--coty); /*Have to experiment with this one*/
+    box-shadow: inset 0 -5px 0 var(--coty);
+    overflow-wrap: break-word !important;
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    /* white-space: pre; */
+    font-family: "stdfont-bold";
+}
+span.coloredv2{
+    background-color: transparent;
+    color: black !important;
+    text-decoration: none !important;
+    transition: background .15s cubic-bezier(.33,.66,.66,1);
+    /* border-bottom: 3px solid #b4e7f8; */
+    border-bottom: 0px solid var(--coty); /*Have to experiment with this one*/
+    box-shadow: inset 0 -5px 0 var(--coty);
+    overflow-wrap: break-word !important;
+    word-break: break-word !important;
+    word-wrap: break-word !important;
+    white-space: pre;
+    font-family: "stdfont-bold";
+}
+.coloredv2:hover{
+    background-color: var(--coty);
+}
+td{
+    padding-left: 0px !important;
+}
+a.normallink{
+    color: black !important;
+    font-family: stdfont-bold !important;
+    text-decoration: none !important;
+}
+a.normallink:hover{
+    color: darkslategray !important;
+}
 /* Regular css e */
 
 
@@ -98,3 +167,27 @@ li.homemenu:hover{
 }
 
 /* Fade CSS e */
+
+
+/* Variable Screen size elements s */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container{
+        padding-top: 30px;
+    }
+}
+@media (max-width: 767px) {
+    main{
+        padding-top: 70px;
+    }
+    nav{
+        height: 60px;
+    }
+    .copyr{
+        font-size:medium;
+    }
+    .hidecol{
+        display: none;
+    }
+}
+/* Variable screen size elements e */

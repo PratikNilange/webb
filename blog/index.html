@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Pratik Nilange</title>
+        <title>Blog · Pratik Nilange</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <meta name="title" content="Pratik Nilange">
+        <meta name="title" content="Blog · Pratik Nilange">
         <meta name="description" content="tech, design, and lame jokes.">
 
         <!-- Open Graph / Facebook -->
@@ -17,11 +17,11 @@
         <!-- Twitter -->
         <meta property="twitter:card" content="summary">
         <meta property="twitter:url" content="https://pratiknilange.in/">
-        <meta property="twitter:title" content="Pratik Nilange">
+        <meta property="twitter:title" content="Blog · Pratik Nilange">
         <meta property="twitter:description" content="tech, design, and lame jokes.">
         <meta property="twitter:image" content="https://pratiknilange.in/media/img/pn.png">
         <!-- meta tags end here -->
-        <link rel=icon type=image/png href="media/img/icon.png">
+        <link rel=icon type=image/png href="../media/img/icon.png">
 
         <!-- CSS/JS s -->
         <link rel="stylesheet" href="../css/globalstyle.css"> <!--Glocal Style -->
@@ -33,10 +33,11 @@
         <link rel="stylesheet" href="../globalresources/bs/css/bootstrap.min.css">
         <script src="../globalresources/bs/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <script src="../js/main.js"></script>
         <!-- BS e -->
         <!-- CSS/JS e -->
     </head>
-    <body>
+    <body id="fadepage">
         <div class="container h-100">
             <div class="row flex-column flex-md-row">
                 <aside class="col-md-3 p-1 flex-shrink-1 bglight">
@@ -46,22 +47,22 @@
                                 <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between" style="line-height: 0.5;">
                                     <li class="nav-item homemenu">
                                         <!-- <a class="nav-link pl-0 text-nowrap" href="#"><i class="fa fa-bullseye fa-fw"></i> <span class="font-weight-bold">Brand</span></a> -->
-                                        <a class="nav-link pl-0 text-nowrap" href="#"><span class="align-middle font-weight-bold">Home</span></a>
+                                        <a class="nav-link pl-0 text-nowrap" href="../"><span class="font-weight-bold">Home</span></a>
                                     </li>
                                     <li class="nav-item homemenu">
-                                        <a class="nav-link pl-0 text-nowrap" href="#"><span class="font-weight-bold">Blog</span></a>
+                                        <a class="nav-link pl-0 text-nowrap active" href="#"><span class="font-weight-bold">Blog</span></a>
                                     </li>
                                     <li class="nav-item homemenu">
                                         <a class="nav-link pl-0 text-nowrap" href="#"><span class="font-weight-bold">Podcast</span></a>
                                     </li>
                                     <li class="nav-item homemenu">
-                                        <a class="nav-link pl-0 text-nowrap" href="#"><span class="font-weight-bold">Design Stuff</span></a>
+                                        <a class="nav-link pl-0 text-nowrap" href="../designstuff"><span class="font-weight-bold">Design Stuff</span></a>
                                     </li>
                                     <li class="nav-item homemenu">
                                         <a class="nav-link pl-0 text-nowrap" href="#"><span class="font-weight-bold">Review</span></a>
                                     </li>
                                     <li class="nav-item homemenu">
-                                        <a class="nav-link pl-0 text-nowrap" href="#"><span class="font-weight-bold">Email</span></a>
+                                        <a class="nav-link pl-0 text-nowrap" href="../email"><span class="font-weight-bold">Email</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -69,20 +70,27 @@
                     </div>
                 </aside>
                 <main class="col-md-7">
-                    <h2 class="fontbold display-4">Pratik Nilange</h2>
+                    <p class="fontbold display-4">Blog</p>
                     <p>
-                        Hola! I'm Pratik Nilange. I'm an engineering undergrad student and a self-taught graphic designer living in Bangalore. See my work on <a href="https://behance.net/prat" class="colored" target="_blank"> Behance </a> and <a href="https://github.com/pratiknilange" class="colored" target="_blank"> GitHub </a>
-                        I also write about recent developments in the field of electronics, design, and cybersecurity.
+                        <a href="search.html" class="coloredv2">Search</a> for an article / Visit my <a href="https://pratiknilange.home.blog" target="_blank" class="coloredv2">old blog</a>
                     </p>
-                    <p>
-                        I created The Boring Magazine, Internet Of Bings, The Circuit Breakers, 657th Studio with my peers. If you handle business, <a class="colored" href="https://linkedin.com/in/itspp" target="_blank"> LinkedIn </a> would be good!
-                    </p>
-                    <p>
-                        Phone photography on <a href="https://instagram.com/pratiknilange" class="colored" target="_blank"> Instagram </a> and my bookshelf on <a href="https://goodreads.com/pratiknilange" class="colored" target="_blank"> Goodreads </a>
-                    </p>
-                    <!-- <div>
-                        <p style="font-size: medium;">© <script>document.write(new Date().getFullYear())</script> प्रतिक निलंगे. All rights reserved.</p>
-                    </div>  -->
+                    <br>
+                    <table class="table table-responsive">
+                        <tbody>
+                            <tr>
+                                <td><a href="posts/2020/Checking-out-new-theme-Seedlet.html" class="normallink text-wrap">Checking out new theme – Seedlet</a></td>
+                                <td class="text-end">August 31, 2020</td>
+                            </tr>
+                            <tr>
+                                <td><a class="text-start"><a href="#" class="normallink text-wrap">Goodbye, Google Plus</a></td>
+                                <td class="text-end">June 7, 2020</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- <img src="../media/temp/output-onlinepngtools.png" title="Site under construction" width="30%"> -->
+                    <div class="pt-4 copyr">
+                        <p>© <script>document.write(new Date().getFullYear())</script> Pratik Nilange · <a href="../copyright.html" style="text-decoration: none;" class="text-dark colored-grey"> Copyright Notice </a></p>
+                    </div> 
                 </main>
             </div>
         </div>
